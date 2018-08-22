@@ -1,0 +1,152 @@
+#navbar {
+  overflow: hidden;
+  background: linear-gradient(to right, #191654,#43C6AC);
+  font-weight: bold;
+  font-size: 150%;
+  text-transform: uppercase;
+
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
+
+body{
+  /*background: linear-gradient(#C1FFC1);*/
+  /*background-color: #D1CFC0;*/
+  background-image: url("HBG4.jpg");
+  background-repeat: round;
+}
+
+#intro{
+  color: white;
+  font-family:cursive;
+  font-size: 20px;
+  text-align: justify;,
+  position:relative;
+  top:30px;
+  margin: 1rem;
+}
+
+#intro p {
+  line-height: 1.8;
+}
+#intro .sn{
+  position:relative;
+  width: 33%; height: auto;
+  min-width: 150px;
+  float: left;
+  margin-right:2rem;
+  border-radius: 47%;
+  -webkit-shape-outside:circle();
+  shape-outside:circle();
+}
+
+#AboutUs{
+  color: white;
+  position:relative;
+  top:65px;
+  left:15px;
+  font-size: 260%;
+  width: 200px;
+  padding: 10px;
+  border: 5px dashed white;
+  margin:auto;
+}
+
+#Brenna{
+  font-weight: 250;
+  color: white;
+  position:relative;
+  left:220px;
+  top:150px;
+  font-size: 200%;
+  text-decoration:overline underline;
+
+
+}
+#bio1{
+  font-weight:200;
+  color:white;
+  position: relative;
+  top:150px;
+  left:40px;
+  text-align: justify;
+}
+
+#Kaitlyn{
+  font-weight:250;
+  color:white;
+  position:relative;
+  left:780px;
+  bottom:140px;
+  font-size: 200%;
+  text-decoration:overline underline;
+}
+#bio2{
+  font-weight:200;
+  color:white;
+  position: relative;
+  bottom:140px;
+  left:700px;
+  text-align: justify;
+}
+
+#Yan{
+  font-weight:250;
+  color:white;
+  position:relative;
+  left:220px;
+  bottom:35px;
+  font-size: 200%;
+  text-decoration:overline underline;
+}
+
+#bio3{
+  font-weight:200;
+  color:white;
+  position: relative;
+  bottom:35px;
+  left:40px;
+  text-align: justify;
+}
+
+#Zeineb{
+  font-weight:250;
+  color:white;
+  position:relative;
+  left:780px;
+  bottom:250px;
+  font-size: 200%;
+  text-decoration:overline underline;
+}
+#bio4{
+  font-weight:200;
+  color:white;
+  position: relative;
+  bottom:244px;
+  left:700px;
+  text-align: justify;
+}
